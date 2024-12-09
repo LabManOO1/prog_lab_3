@@ -9,13 +9,7 @@ class Check_IPv6:
         self.pattern = r"((?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4})"
 
     def check_string(self, string: str):
-        result = re.findall(self.pattern, string)
-        if not result:
-            print("Совпадений не найдено!")
-            return 0
-        else:
-            print(f'Найденные адреса: {result}')
-            return result
+        return re.findall(self.pattern, string)
 
     def check_file(self):
         try:
@@ -36,6 +30,6 @@ class Check_IPv6:
 
 
 
-
-a = Check_IPv6()
-a.check_url()
+if __name__ == "__main__":
+    a = Check_IPv6()
+    a.check_url()
