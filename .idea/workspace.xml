@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de3acc5-8974-4ed4-a793-81f71b74205a" name="Changes" comment="Создание регулярного выражение и основных методов">
-      <change afterPath="$PROJECT_DIR$/test_Search_IPv6.py" afterDir="false" />
+    <list default="true" id="3de3acc5-8974-4ed4-a793-81f71b74205a" name="Changes" comment="Unittest для проверки метода поиска IPv6 в строке">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPv6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IPv6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Search_IPv6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search_IPv6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Search_IPv6.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Search_IPv6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +48,53 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_Search_IPv6.TestCheckAll.executor": "Run",
     "Python tests.Python tests for test_Search_IPv6.TestCheckAll.test_check_string.executor": "Run",
+    "Python tests.Python tests for test_Search_IPv6.TestCheckAll.test_check_website.executor": "Run",
     "Python tests.Python tests in test_Search_IPv6.py.executor": "Run",
     "Python.Search_IPv6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Search_IPv6">
+    <configuration name="Search_IPv6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_IPv6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Search_IPv6.TestCheckAll" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Search_IPv6.TestCheckAll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_Search_IPv6.TestCheckAll.test_check_string" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -70,8 +110,42 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Search_IPv6.TestCheckAll.test_check_website" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Search_IPv6.TestCheckAll.test_check_website&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Search_IPv6.TestSearchIPv6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Search_IPv6.TestSearchIPv6&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Search_IPv6" />
+        <item itemvalue="Python tests.Python tests for test_Search_IPv6.TestSearchIPv6" />
+        <item itemvalue="Python tests.Python tests for test_Search_IPv6.TestCheckAll.test_check_website" />
+        <item itemvalue="Python tests.Python tests for test_Search_IPv6.TestCheckAll" />
         <item itemvalue="Python tests.Python tests for test_Search_IPv6.TestCheckAll.test_check_string" />
       </list>
     </recent_temporary>
@@ -108,11 +182,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733763780730</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Unittest для проверки метода поиска IPv6 в строке">
+      <option name="closed" value="true" />
+      <created>1733765036324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733765036324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание регулярного выражение и основных методов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание регулярного выражение и основных методов" />
+    <MESSAGE value="Unittest для проверки метода поиска IPv6 в строке" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unittest для проверки метода поиска IPv6 в строке" />
   </component>
 </project>
